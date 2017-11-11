@@ -1,0 +1,210 @@
+body{
+	margin:0;
+	padding:0;
+	width: 100%;
+	background: linear-gradient(to right, teal, blue);
+}
+header{
+	background-color:black;
+	width: inherit;
+	height: 130px;
+}
+#headerImage{
+	width: 100px;
+	position: relative;
+	top: 30px;
+	left: 15%;
+}
+#headerName{
+	color: #EEE;
+	position: relative;
+	width: 300px;
+	left:21%;
+	top:-58px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 26px;
+}
+nav{
+	background-color:black;
+}
+ul{
+	height: 45px;
+	width:40%;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+li{
+	color:white;
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+.listDiv{
+	height:100%;
+	width:inherit;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+	color: inherit;
+}
+a :visited{
+	text-decoration:none;
+	color: inherit;
+}
+.navAnch{
+	text-decoration:none;
+	color:white;
+}
+.navAnch :visited{
+	text-decoration:none;
+	color:white;
+}
+.navAnch :hover{
+	background-color:white;
+	color:black;
+	text-decoration: overline;
+	text-decoration-color: red;
+}
+.currentPage{
+	color:lightgrey;
+}
+footer{
+	background-color:black;
+	position: fixed;
+	height: 60px;
+	width:inherit;
+	bottom:0px;
+	padding-top: 30px;
+	color: white;
+	text-align: center;
+	border-top: 1px solid grey;
+	color:white;
+}
+.social{
+	display: block;
+	text-align: right;
+	margin-right: 25px;
+}
+.sociallogo{
+	width: 25px;
+}
+#homeArticle{
+	text-align: center;
+	height: 1280px;
+}
+.homeBrowseText{
+	color: white;
+}
+#fancy{
+	color: pink;
+}
+#big{
+	font-size: 32px;
+	color: red;
+}
+.homeArticleImages{
+	height: 500px;
+	margin-bottom: 30px;
+	border-radius: 50px;
+	border: 1px solid teal;
+}
+.homeImageLink :hover{
+	border: 5px solid teal;
+}
+#aboutusColumn{
+	position:fixed;
+	padding-top: 10px;
+	text-align:center;
+	width: 500px;
+	color:white;
+	left: 660px;
+}
+#mailtoLink{
+	color:red;
+	text-decoration:underline;
+}
+#mailtoLink :visited{
+	color:red;
+}
+.contactusDiv{
+	vertical-align:top;
+	color:white;
+	text-align: center;
+	display:inline-block;
+	width: 40%;
+	border: 1px solid white;
+	margin:10px;
+	background: linear-gradient(to left, teal, blue);
+}
+#contactusContainer{
+	text-align:center;
+	width: 100%;
+}
+#mensfashionContainer{
+	text-align:center;
+	width: 100%;
+}
+#mensfashionDiv1{
+	vertical-align:top;
+	color:white;
+	text-align: center;
+	display:inline-block;
+	width: 30%;
+	margin:10px;
+}
+#mensfashionDiv2{
+	vertical-align:top;
+	color:white;
+	text-align: center;
+	display:inline-block;
+	width: 30%;
+	margin:10px;
+}
+#mensfashionDiv3{
+	vertical-align:top;
+	color:white;
+	text-align: center;
+	display:inline-block;
+	width: 30%;
+	margin:10px;
+}
+.mensfashionImage{
+	width:50%;
+}#mensfashionColor{
+	color:red;
+	text-decoration:underline;
+}
+#womensfashionContainer{
+	text-align:center;
+	width: 100%;
+}
+#womensfashionDiv1{
+	vertical-align:top;
+	color:white;
+	text-align: center;
+	display:inline-block;
+	width: 30%;
+	margin:10px;
+}
+#womensfashionDiv2{
+	vertical-align:top;
+	color:white;
+	text-align: center;
+	display:inline-block;
+	width: 30%;
+	margin:10px;
+}
+.womensfashionImage{
+	width:50%;
+}#womensfashionColor{
+	color:red;
+	text-decoration:underline;
+}
