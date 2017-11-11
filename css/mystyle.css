@@ -10,46 +10,49 @@ header{
 	height: 130px;
 }
 #headerImage{
+	display:inline-block;
 	width: 100px;
-	position: relative;
-	top: 30px;
-	left: 15%;
+	padding: 15px;
+	vertical-align:middle;
 }
 #headerName{
+	display:inline-block;
+	width:45%;
 	color: #EEE;
-	position: relative;
-	width: 300px;
-	left:21%;
-	top:-58px;
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 26px;
+	padding-left: 15px;
+	vertical-align:middle;
+}
+.cont{
+	vertical-align:middle;
+	width: 50%;
+	text-align: justify;
+	height:130px;
 }
 nav{
 	background-color:black;
 }
 ul{
 	height: 45px;
-	width:40%;
 	list-style-type: none;
 	margin: 0 auto;
 	padding: 0;
+	text-align:center;
 }
 li{
 	color:white;
 	display: inline-block;
-	width: 130px;
 	height: 40px;
 	text-align: center;
-	padding-right: 1px;
-	padding-left: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
 }
 .listDiv{
 	height:100%;
 	width:inherit;
-	border-right: 1px solid grey;
-	border-left: 1px solid grey;
-	margin:0;
-	padding:0;
 }
 a{
 	text-decoration:none;
