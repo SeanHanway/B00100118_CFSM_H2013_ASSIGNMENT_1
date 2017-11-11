@@ -212,3 +212,6 @@ footer{
 	color:red;
 	text-decoration:underline;
 }
+#strik{
+	text-decoration:line-through;
+}
